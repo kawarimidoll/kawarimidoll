@@ -23,3 +23,10 @@ Here are some ideas to get you started:
 
 ```
 <!-- http://www.patorjk.com/software/taag/#p=display&f=Big&t=kawarimidoll -->
+
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=kawarimidoll&count_private=true&show_icons=true" />
+</a>
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kawarimidoll&layout=compact" />
+</a>
