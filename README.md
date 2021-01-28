@@ -22,8 +22,12 @@ Here are some ideas to get you started:
    |_|\_\__,_| \_/\_/ \__,_|_|  |_|_| |_| |_|_|\__,_|\___/|_|_|
 
 ```
+
 <!-- http://www.patorjk.com/software/taag/#p=display&f=Big&t=kawarimidoll -->
 
+### 🔥 streak
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=kawarimidoll)](https://github.com/DenverCoder1/github-readme-streak-stats)
 
 ### 🏆 trophies
 
@@ -32,6 +36,7 @@ Here are some ideas to get you started:
 </a>
 
 ### 📊 stats
+
 <div>
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=kawarimidoll&count_private=true&show_icons=true" />
