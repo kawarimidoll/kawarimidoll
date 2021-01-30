@@ -27,21 +27,12 @@ Here are some ideas to get you started:
 
 ### 🔥 streak
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=kawarimidoll)](https://github.com/DenverCoder1/github-readme-streak-stats)
+[![Streak](assets/streak.svg)](https://github.com/DenverCoder1/github-readme-streak-stats)
 
 ### 🏆 trophies
 
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img align="center" src="https://github-profile-trophy.vercel.app/?username=kawarimidoll&margin-w=5&no-frame=true" />
-</a>
+[![Trophy](assets/trophies.svg)](https://github.com/ryo-ma/github-profile-trophy)
 
 ### 📊 stats
 
-<div>
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=kawarimidoll&count_private=true&show_icons=true" />
-</a>
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kawarimidoll&layout=compact" />
-</a>
-</div>
+[![Stats](assets/stats.svg)](https://github.com/anuraghazra/github-readme-stats) [![Langs](assets/langs.svg)](https://github.com/anuraghazra/github-readme-stats)
