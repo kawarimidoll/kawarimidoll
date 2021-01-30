@@ -1,0 +1,48 @@
+name: Update Assets
+on:
+  schedule:
+    - cron: 0 0 * * *
+  repository_dispatch:
+    types: [update-assets]
+
+# ref: https://github.com/technote-space/technote-space/blob/master/.github/workflows/update-stats.yml
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v2
+
+        # Download assets
+      - name: Download stats
+        run: |
+          curl -sS -o assets/stats.svg "https://github-readme-stats.vercel.app/api?username=kawarimidoll&count_private=true&show_icons=true" \
+          && echo "downloaded_flag=1" >> $GITHUB_ENV
+      - name: Download langs
+        run: |
+          curl -sS -o assets/langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=kawarimidoll&layout=compact" \
+          && echo "downloaded_flag=1" >> $GITHUB_ENV
+      - name: Download trophies
+        run: |
+          curl -sS -o assets/trophies.svg "https://github-profile-trophy.vercel.app/?username=kawarimidoll&margin-w=5&no-frame=true" \
+          && echo "downloaded_flag=1" >> $GITHUB_ENV
+      - name: Download streak
+        run: |
+          curl -sS -o assets/streak.svg "https://github-readme-streak-stats.herokuapp.com/?user=kawarimidoll" \
+          && echo "downloaded_flag=1" >> $GITHUB_ENV
+
+        # Git commit
+      - name: Check diff
+        if: env.downloaded_flag
+        run: |
+          git add .
+          [ -n "$(git status --short || :)" ] && echo "commit_flag=1" >> $GITHUB_ENV
+      - name: Git commit
+        if: env.commit_flag
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git commit -qm "update asssets"
+          git push origin
+
