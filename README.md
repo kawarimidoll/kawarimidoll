@@ -41,6 +41,7 @@ Here are some ideas to get you started:
 [![Stats](assets/stats.svg)](https://github.com/anuraghazra/github-readme-stats)
 [![Langs](assets/langs.svg)](https://github.com/anuraghazra/github-readme-stats)
 
+[![Contribution Stats](assets/summary.svg)](https://github.com/LordDashMe/github-contribution-stats/)
 
 ### 💻 skills
 
