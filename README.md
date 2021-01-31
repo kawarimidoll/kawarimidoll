@@ -13,6 +13,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+<!-- deno-fmt-ignore -->
 ```
     _                            _           _     _       _ _
    | |                          (_)         (_)   | |     | | |
@@ -81,3 +82,8 @@ Here are some ideas to get you started:
 #### 😎 learning
 ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript%20-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white)
+
+### 🗂 external profiles
+
+[gitstalk](https://gitstalk.netlify.app/kawarimidoll)
+[gitfolio](https://gitfolio-online.vercel.app/u/kawarimidoll)
