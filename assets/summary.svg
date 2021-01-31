@@ -123,11 +123,11 @@
       </g>
       <g id="this_month_commits" class="item" style="animation-delay: 600ms" transform="translate(25, 35)">
         <text class="contribution-stats" x="0" y="5">This Month:</text>
-        <text class="contribution-stats bolder" x="101" y="5">250</text>
+        <text class="contribution-stats bolder" x="101" y="5">253</text>
       </g>
       <g id="this_week_commits" class="item" style="animation-delay: 800ms" transform="translate(25, 55)">
         <text class="contribution-stats" x="0" y="10">This Week:</text>
-        <text class="contribution-stats bolder" x="101" y="10">3</text>
+        <text class="contribution-stats bolder" x="101" y="10">6</text>
       </g>
     </svg>
   
