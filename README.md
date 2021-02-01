@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 </h1>
 
 <p align="center">
-<a href="https://twitter.com/kawarimidoll" target="_blank" rel="noopener noreferrer"><img alt="twitter kawarimidoll" src="https://img.shields.io/badge/kawarimidoll%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"></a>
+<a href="https://twitter.com/kawarimidoll"><img alt="twitter kawarimidoll" src="https://img.shields.io/badge/kawarimidoll%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"></a>
 </p>
 
 ### 🔥 streak
@@ -92,6 +92,6 @@ Here are some ideas to get you started:
 ### 🗂 external profiles
 
 <ul>
-<li><a href="https://gitstalk.netlify.app/kawarimidoll" target="_blank" rel="noopener noreferrer">gitstalk</a></li>
-<li><a href="https://gitfolio-online.vercel.app/u/kawarimidoll" target="_blank" rel="noopener noreferrer">gitfolio</a></li>
+<li><a href="https://gitstalk.netlify.app/kawarimidoll">gitstalk</a></li>
+<li><a href="https://gitfolio-online.vercel.app/u/kawarimidoll">gitfolio</a></li>
 </ul>
