@@ -13,24 +13,36 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-[![header](assets/header.svg)](https://github.com/kyechan99/capsule-render)
+<h1 align="center">
+<a href="https://github.com/kyechan99/capsule-render"><img alt="header" src="assets/header.svg"></a>
+</h1>
 
-[![twitter kawarimidoll](https://img.shields.io/badge/kawarimidoll%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/kawarimidoll)
+<p align="center">
+<a href="https://twitter.com/kawarimidoll"><img alt="twitter kawarimidoll" src="https://img.shields.io/badge/kawarimidoll%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"></a>
+</p>
 
 ### 🔥 streak
 
-[![Streak](assets/streak.svg)](https://github.com/DenverCoder1/github-readme-streak-stats)
+<p align="center">
+<a href="https://github.com/DenverCoder1/github-readme-streak-stats"><img alt="Streak" src="assets/streak.svg"></a>
+</p>
 
 ### 🏆 trophies
 
-[![Trophy](assets/trophies.svg)](https://github.com/ryo-ma/github-profile-trophy)
+<p align="center">
+<a href="https://github.com/ryo-ma/github-profile-trophy"><img alt="Trophy" src="assets/trophies.svg"></a>
+</p>
 
 ### 📊 stats
 
-[![Stats](assets/stats.svg)](https://github.com/anuraghazra/github-readme-stats)
-[![Langs](assets/langs.svg)](https://github.com/anuraghazra/github-readme-stats)
+<p align="center">
+<a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Stats" src="assets/stats.svg"></a>
+<a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Langs" src="assets/langs.svg"></a>
+</p>
 
-[![Contribution Stats](assets/summary.svg)](https://github.com/LordDashMe/github-contribution-stats/)
+<p align="center">
+<a href="https://github.com/LordDashMe/github-contribution-stats/"><img alt="Contribution Stats" src="assets/summary.svg"></a>
+</p>
 
 ### 💻 skills
 
@@ -79,5 +91,5 @@ Here are some ideas to get you started:
 
 ### 🗂 external profiles
 
-[gitstalk](https://gitstalk.netlify.app/kawarimidoll)
-[gitfolio](https://gitfolio-online.vercel.app/u/kawarimidoll)
+- [gitstalk](https://gitstalk.netlify.app/kawarimidoll)
+- [gitfolio](https://gitfolio-online.vercel.app/u/kawarimidoll)
