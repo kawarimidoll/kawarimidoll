@@ -13,18 +13,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<!-- deno-fmt-ignore -->
-```
-    _                            _           _     _       _ _
-   | |                          (_)         (_)   | |     | | |
-   | | ____ ___      ____ _ _ __ _ _ __ ___  _  __| | ___ | | |
-   | |/ / _` \ \ /\ / / _` | '__| | '_ ` _ \| |/ _` |/ _ \| | |
-   |   < (_| |\ V  V / (_| | |  | | | | | | | | (_| | (_) | | |
-   |_|\_\__,_| \_/\_/ \__,_|_|  |_|_| |_| |_|_|\__,_|\___/|_|_|
-
-```
-
-<!-- http://www.patorjk.com/software/taag/#p=display&f=Big&t=kawarimidoll -->
+[![header](assets/header.svg)](https://github.com/kyechan99/capsule-render)
 
 [![twitter kawarimidoll](https://img.shields.io/badge/kawarimidoll%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/kawarimidoll)
 
@@ -48,6 +37,7 @@ Here are some ideas to get you started:
 <!-- https://github.com/Ileriayo/markdown-badges -->
 
 #### 😍 love
+
 ![JavaScript](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=white)
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?&style=for-the-badge&logo=markdown&logoColor=white)
 ![Shell Script](https://img.shields.io/badge/shell_script%20-%23121011.svg?&style=for-the-badge&logo=gnu-bash&logoColor=white)
@@ -60,6 +50,7 @@ Here are some ideas to get you started:
 ![Rails](https://img.shields.io/badge/rails%20-%23CC0000.svg?&style=for-the-badge&logo=ruby-on-rails&logoColor=white)
 
 #### 😊 like
+
 ![HTML5](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
 ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?&style=for-the-badge&logo=ruby&logoColor=white)
@@ -72,6 +63,7 @@ Here are some ideas to get you started:
 ![Vercel](https://img.shields.io/badge/vercel%20-%23000000.svg?&style=for-the-badge&logo=vercel&logoColor=white)
 
 #### 🙂 ok
+
 ![C](https://img.shields.io/badge/c%20-%2300599C.svg?&style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/c++%20-%2300599C.svg?&style=for-the-badge&logo=c%2B%2B&ogoColor=white)
 ![AWS](https://img.shields.io/badge/AWS%20-%23FF9900.svg?&style=for-the-badge&logo=amazon-aws&logoColor=white)
@@ -81,6 +73,7 @@ Here are some ideas to get you started:
 ![Vagrant](https://img.shields.io/badge/vagrant%20-%231563FF.svg?&style=for-the-badge&logo=vagrant&logoColor=white)
 
 #### 😎 learning
+
 ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript%20-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white)
 
