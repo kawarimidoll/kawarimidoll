@@ -91,5 +91,5 @@ Here are some ideas to get you started:
 
 ### 🗂 external profiles
 
-- [gitstalk](https://gitstalk.netlify.app/kawarimidoll)
-- [gitfolio](https://gitfolio-online.vercel.app/u/kawarimidoll)
+  - [gitstalk](https://gitstalk.netlify.app/kawarimidoll)
+  - [gitfolio](https://gitfolio-online.vercel.app/u/kawarimidoll)
