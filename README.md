@@ -94,4 +94,5 @@ Here are some ideas to get you started:
 <ul>
 <li><a href="https://gitstalk.netlify.app/kawarimidoll">gitstalk</a></li>
 <li><a href="https://gitfolio-online.vercel.app/u/kawarimidoll">gitfolio</a></li>
+<li><a href="https://profile-summary-for-github.com/user/kawarimidoll">profile-summary-for-github</a></li>
 </ul>
