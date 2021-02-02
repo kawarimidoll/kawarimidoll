@@ -18,7 +18,8 @@ Here are some ideas to get you started:
 </h1>
 
 <p align="center">
-<a href="https://twitter.com/kawarimidoll"><img alt="twitter kawarimidoll" src="https://img.shields.io/badge/kawarimidoll%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"></a>
+<a href="https://twitter.com/kawarimidoll"><img alt="twitter kawarimidoll" src="https://img.shields.io/badge/@kawarimidoll%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white" height="40"></a>
+<a href="https://www.buymeacoffee.com/kawarimidoll"><img alt="buy me a coffee" src="https://cdn.buymeacoffee.com/buttons/default-blue.png" height="40"></a>
 </p>
 
 ### 🔥 streak
