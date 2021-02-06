@@ -1,4 +1,4 @@
-<!--{"login":"kawarimidoll","id":8146876,"node_id":"MDQ6VXNlcjgxNDY4NzY=","avatar_url":"https://avatars.githubusercontent.com/u/8146876?v=4","gravatar_id":"","url":"https://api.github.com/users/kawarimidoll","html_url":"https://github.com/kawarimidoll","followers_url":"https://api.github.com/users/kawarimidoll/followers","following_url":"https://api.github.com/users/kawarimidoll/following{/other_user}","gists_url":"https://api.github.com/users/kawarimidoll/gists{/gist_id}","starred_url":"https://api.github.com/users/kawarimidoll/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kawarimidoll/subscriptions","organizations_url":"https://api.github.com/users/kawarimidoll/orgs","repos_url":"https://api.github.com/users/kawarimidoll/repos","events_url":"https://api.github.com/users/kawarimidoll/events{/privacy}","received_events_url":"https://api.github.com/users/kawarimidoll/received_events","type":"User","site_admin":false,"name":"カワリミ人形","company":null,"blog":"","location":"Room 101, Japan","email":null,"hireable":null,"bio":"He who develops a software should look to it that he himself does not become a software. And if you gaze long into codes, the codes also gazes into you.","twitter_username":"kawarimidoll","public_repos":90,"public_gists":2,"followers":3,"following":1,"created_at":"2014-07-13T00:36:21Z","updated_at":"2021-02-04T02:35:47Z"}-->
+<!--{"login":"kawarimidoll","id":8146876,"node_id":"MDQ6VXNlcjgxNDY4NzY=","avatar_url":"https://avatars.githubusercontent.com/u/8146876?v=4","gravatar_id":"","url":"https://api.github.com/users/kawarimidoll","html_url":"https://github.com/kawarimidoll","followers_url":"https://api.github.com/users/kawarimidoll/followers","following_url":"https://api.github.com/users/kawarimidoll/following{/other_user}","gists_url":"https://api.github.com/users/kawarimidoll/gists{/gist_id}","starred_url":"https://api.github.com/users/kawarimidoll/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kawarimidoll/subscriptions","organizations_url":"https://api.github.com/users/kawarimidoll/orgs","repos_url":"https://api.github.com/users/kawarimidoll/repos","events_url":"https://api.github.com/users/kawarimidoll/events{/privacy}","received_events_url":"https://api.github.com/users/kawarimidoll/received_events","type":"User","site_admin":false,"name":"カワリミ人形","company":null,"blog":"","location":"Room 101, Japan","email":null,"hireable":null,"bio":"He who develops a software should look to it that he himself does not become a software. And if you gaze long into codes, the codes also gazes into you.","twitter_username":"kawarimidoll","public_repos":91,"public_gists":2,"followers":3,"following":1,"created_at":"2014-07-13T00:36:21Z","updated_at":"2021-02-04T02:35:47Z"}-->
     <svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' style='isolation:isolate' viewBox='0 0 495 195' width='495px' height='195px'>
         <style>
             @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
@@ -22,7 +22,7 @@
                 <g transform='translate(1,48)'>
                     <rect width='163' height='50' stroke='none' fill='none'></rect>
                     <text x='81.5' y='25' dominant-baseline='middle' stroke-width='0' text-anchor='middle' style='font-family:&quot;Open Sans&quot;, Roboto, system-ui, sans-serif;font-weight:700;font-size:28px;font-style:normal;fill:#151515;stroke:none;'>
-                        1048
+                        1057
                     </text>
                 </g>
 
@@ -47,7 +47,7 @@
                 <g transform='translate(166,48)'>
                     <rect width='163' height='50' stroke='none' fill='none'></rect>
                     <text x='81.5' y='25' dominant-baseline='middle' stroke-width='0' text-anchor='middle' style='font-family:&quot;Open Sans&quot;, Roboto, system-ui, sans-serif;font-weight:700;font-size:28px;font-style:normal;fill:#151515;stroke:none;'>
-                        169
+                        170
                     </text>
                 </g>
 
@@ -63,7 +63,7 @@
                 <g transform='translate(166,145)'>
                     <rect width='163' height='26' stroke='none' fill='none'></rect>
                     <text x='81.5' y='13' dominant-baseline='middle' stroke-width='0' text-anchor='middle' style='font-family:&quot;Open Sans&quot;, Roboto, system-ui, sans-serif;font-weight:400;font-size:12px;font-style:normal;fill:#464646;stroke:none;'>
-                        Aug 21, 2020 - Feb 5
+                        Aug 21, 2020 - Feb 6
                     </text>
                 </g>
 
@@ -87,7 +87,7 @@
                 <g transform='translate(331,48)'>
                     <rect width='163' height='50' stroke='none' fill='none'></rect>
                     <text x='81.5' y='25' dominant-baseline='middle' stroke-width='0' text-anchor='middle' style='font-family:&quot;Open Sans&quot;, Roboto, system-ui, sans-serif;font-weight:700;font-size:28px;font-style:normal;fill:#151515;stroke:none;'>
-                        169
+                        170
                     </text>
                 </g>
 
@@ -103,7 +103,7 @@
                 <g transform='translate(331,114)'>
                     <rect width='163' height='50' stroke='none' fill='none'></rect>
                     <text x='81.5' y='25' dominant-baseline='middle' stroke-width='0' text-anchor='middle' style='font-family:&quot;Open Sans&quot;, Roboto, system-ui, sans-serif;font-weight:400;font-size:12px;font-style:normal;fill:#464646;stroke:none;'>
-                        Aug 21, 2020 - Feb 5
+                        Aug 21, 2020 - Feb 6
                     </text>
                 </g>
             </g>
