@@ -34,10 +34,10 @@ jobs:
         run: |
           curl -sS -o assets/summary.svg "https://github-contribution-stats.vercel.app/api/?username=kawarimidoll" \
           && echo "downloaded_flag=1" >> $GITHUB_ENV
-      - name: Download header
-        run: |
-          curl -sS -o assets/header.svg "https://capsule-render.vercel.app/api?color=auto&text=kawarimidoll&&animation=twinkling&type=soft" \
-          && echo "downloaded_flag=1" >> $GITHUB_ENV
+      # - name: Download header
+      #   run: |
+      #     curl -sS -o assets/header.svg "https://capsule-render.vercel.app/api?color=auto&text=kawarimidoll&animation=twinkling&type=soft" \
+      #     && echo "downloaded_flag=1" >> $GITHUB_ENV
 
       - name: Git commit
         if: env.downloaded_flag
