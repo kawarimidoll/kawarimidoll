@@ -18,9 +18,9 @@
         </style>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 854 120">
             
-            <rect xmlns="http://www.w3.org/2000/svg" rx="4.5" height="120" width="100%" fill="#3A4A51" stroke-opacity="1"/>
+            <rect xmlns="http://www.w3.org/2000/svg" rx="4.5" height="120" width="100%" fill="#FF6F3C" stroke-opacity="1"/>
         </svg>
 		
-		<text text-anchor="middle" alignment-baseline="middle" x="50%" y="50%" class="text" style="fill:#4A675A;">kawarimidoll</text>
+		<text text-anchor="middle" alignment-baseline="middle" x="50%" y="50%" class="text" style="fill:#FCE2CF;">kawarimidoll</text>
     </svg>
     
