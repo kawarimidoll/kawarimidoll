@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 -->
 
 <h1 align="center">
-<a href="https://github.com/kyechan99/capsule-render"><img alt="header" src="assets/header.svg"></a>
+<img alt="header" src="assets/header.svg">
 </h1>
 
 <p align="center">
