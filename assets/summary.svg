@@ -127,7 +127,7 @@
       </g>
       <g id="this_week_commits" class="item" style="animation-delay: 800ms" transform="translate(25, 55)">
         <text class="contribution-stats" x="0" y="10">This Week:</text>
-        <text class="contribution-stats bolder" x="101" y="10">106</text>
+        <text class="contribution-stats bolder" x="101" y="10">0</text>
       </g>
     </svg>
   
