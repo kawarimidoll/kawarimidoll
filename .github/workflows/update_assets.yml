@@ -16,34 +16,40 @@ jobs:
 
       - name: Download stats
         run: |
-          curl -sS -o assets/stats.svg "https://github-readme-stats.vercel.app/api?username=kawarimidoll&count_private=true&show_icons=true" \
-          || echo "Download stats: failed"
+          curl -sS 'https://github-readme-stats.vercel.app/api?username=kawarimidoll&count_private=true&show_icons=true' \
+          | sed 's/>/>\n/g' | sed 's/<!--.*-->//' | sed '/<!--/,/-->/d' | sed 's/  */ /g' \
+          | tr -d '\n' > assets/stats.svg || echo 'Download stats: failed'
       - name: Download langs
         run: |
-          curl -sS -o assets/langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=kawarimidoll&layout=compact" \
-          || echo "Download langs: failed"
+          curl -sS 'https://github-readme-stats.vercel.app/api/top-langs/?username=kawarimidoll&layout=compact' \
+          | sed 's/>/>\n/g' | sed 's/<!--.*-->//' | sed '/<!--/,/-->/d' | sed 's/  */ /g' \
+          | tr -d '\n' > assets/langs.svg || echo 'Download langs: failed'
       - name: Download trophies
         run: |
-          curl -sS -o assets/trophies.svg "https://github-profile-trophy.vercel.app/?username=kawarimidoll&margin-w=5&no-frame=true" \
-          || echo "Download trophies: failed"
+          curl -sS 'https://github-profile-trophy.vercel.app/?username=kawarimidoll&margin-w=5&no-frame=true' \
+          | sed 's/>/>\n/g' | sed 's/<!--.*-->//' | sed '/<!--/,/-->/d' | sed 's/  */ /g' \
+          | tr -d '\n' > assets/trophies.svg || echo 'Download trophies: failed'
       - name: Download streak
         run: |
-          curl -sS -o assets/streak.svg "https://github-readme-streak-stats.herokuapp.com/?user=kawarimidoll" \
-          || echo "Download streak: failed"
+          curl -sS 'https://github-readme-streak-stats.herokuapp.com/?user=kawarimidoll' \
+          | sed 's/>/>\n/g' | sed 's/<!--.*-->//' | sed '/<!--/,/-->/d' | sed 's/  */ /g' \
+          | tr -d '\n' > assets/streak.svg || echo 'Download streak: failed'
       - name: Download contribution-stats
         run: |
-          curl -sS -o assets/summary.svg "https://github-contribution-stats.vercel.app/api/?username=kawarimidoll" \
-          || echo "Download summary: failed"
+          curl -sS 'https://github-contribution-stats.vercel.app/api/?username=kawarimidoll' \
+          | sed 's/>/>\n/g' | sed 's/<!--.*-->//' | sed '/<!--/,/-->/d' | sed 's/  */ /g' \
+          | tr -d '\n' > assets/summary.svg || echo 'Download summary: failed'
       - name: Download header
         run: |
-          curl -sS -o assets/header.svg "https://typograssy.vercel.app/api?text=Hello%20world!%20%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF%E4%B8%96%E7%95%8C!%20&frame=none" \
-          || echo "Download header: failed"
+          curl -sS 'https://typograssy.vercel.app/api?text=Hello%20world!%20%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF%E4%B8%96%E7%95%8C!%20&frame=none' \
+          | sed 's/>/>\n/g' | sed 's/<!--.*-->//' | sed '/<!--/,/-->/d' | sed 's/  */ /g' \
+          | tr -d '\n' > assets/header.svg || echo 'Download header: failed'
 
       - name: Git commit
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          if [ -n "$(git status --short || :)" ]
-          then git commit -aqm "update asssets" && git push origin
+          if [ -n '$(git status --short || :)' ]
+          then git commit -aqm 'update asssets' && git push origin
           else echo 'nothing to commit, working tree clean'
           fi
