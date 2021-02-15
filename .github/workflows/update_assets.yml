@@ -17,30 +17,29 @@ jobs:
       - name: Download stats
         run: |
           curl -sS -o assets/stats.svg "https://github-readme-stats.vercel.app/api?username=kawarimidoll&count_private=true&show_icons=true" \
-          && echo "downloaded_flag=1" >> $GITHUB_ENV
+          || echo "Download stats: failed"
       - name: Download langs
         run: |
           curl -sS -o assets/langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=kawarimidoll&layout=compact" \
-          && echo "downloaded_flag=1" >> $GITHUB_ENV
+          || echo "Download langs: failed"
       - name: Download trophies
         run: |
           curl -sS -o assets/trophies.svg "https://github-profile-trophy.vercel.app/?username=kawarimidoll&margin-w=5&no-frame=true" \
-          && echo "downloaded_flag=1" >> $GITHUB_ENV
+          || echo "Download trophies: failed"
       - name: Download streak
         run: |
           curl -sS -o assets/streak.svg "https://github-readme-streak-stats.herokuapp.com/?user=kawarimidoll" \
-          && echo "downloaded_flag=1" >> $GITHUB_ENV
+          || echo "Download streak: failed"
       - name: Download contribution-stats
         run: |
           curl -sS -o assets/summary.svg "https://github-contribution-stats.vercel.app/api/?username=kawarimidoll" \
-          && echo "downloaded_flag=1" >> $GITHUB_ENV
-      # - name: Download header
-      #   run: |
-      #     curl -sS -o assets/header.svg "https://capsule-render.vercel.app/api?color=auto&text=kawarimidoll&animation=twinkling&type=soft" \
-      #     && echo "downloaded_flag=1" >> $GITHUB_ENV
+          || echo "Download summary: failed"
+      - name: Download header
+        run: |
+          curl -sS -o assets/header.svg "https://typograssy.vercel.app/api?text=Hello%20world!%20%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF%E4%B8%96%E7%95%8C!%20&frame=none" \
+          || echo "Download header: failed"
 
       - name: Git commit
-        if: env.downloaded_flag
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
