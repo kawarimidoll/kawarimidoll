@@ -26,7 +26,7 @@ jobs:
           | tr -d '\n' > assets/langs.svg || echo 'Download langs: failed'
       - name: Download trophies
         run: |
-          curl -sS 'https://github-profile-trophy.vercel.app/?username=kawarimidoll&margin-w=5&no-frame=true' \
+          curl -sS 'https://github-profile-trophy.vercel.app/?username=kawarimidoll&margin-w=5&no-frame=true&column=10' \
           | sed 's/>/>\n/g' | sed 's/<!--.*-->//' | sed '/<!--/,/-->/d' | sed 's/  */ /g' \
           | tr -d '\n' > assets/trophies.svg || echo 'Download trophies: failed'
       - name: Download streak
