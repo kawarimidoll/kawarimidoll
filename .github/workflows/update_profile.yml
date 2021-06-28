@@ -1,0 +1,24 @@
+name: Update profile
+on:
+  # 03:20UTC -> 12:20JST
+  schedule:
+    - cron: "20 3 * * *"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v2
+      - uses: denoland/setup-deno@v1
+      - uses: jurassiscripts/setup-velociraptor@v1
+      - run: vr update_profile
+
+      - name: Git commit
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          if [ -n '$(git status --short || :)' ]
+          then git commit -aqm 'update profile' && git push origin
+          else echo 'nothing to commit, working tree clean'
+          fi

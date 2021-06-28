@@ -1,0 +1,15 @@
+allow:
+  - write=./assets/zenn.png,README.md
+  - read=README.md
+  - net=zenn.dev,res.cloudinary.com
+
+scripts:
+  update_profile:
+    cmd: update_profile.ts
+  lint: deno lint
+  fmt: deno fmt
+  pre-commit:
+    cmd:
+      - vr lint
+      - vr fmt
+    gitHook: pre-commit
