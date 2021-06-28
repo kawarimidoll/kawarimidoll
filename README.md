@@ -45,7 +45,12 @@ Here are some ideas to get you started:
 <a href="https://github.com/LordDashMe/github-contribution-stats/"><img alt="Contribution Stats" src="assets/summary.svg"></a>
 </p>
 
+### 📝 Article
 
+<p align="center">
+<!-- zenn-article-link-next-line -->
+<a href="https://zenn.dev/kawarimidoll/articles/2659e69719b075"><img alt="Zenn" src="assets/zenn.png"></a>
+</p>
 
 ### 🗂 external profiles
 
