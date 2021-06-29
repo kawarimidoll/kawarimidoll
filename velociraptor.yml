@@ -8,8 +8,8 @@ scripts:
     cmd: update_profile.ts
   lint: deno lint
   fmt: deno fmt
-  pre-commit:
-    cmd:
-      - vr lint
-      - vr fmt
-    gitHook: pre-commit
+  # pre-commit:
+  #   cmd:
+  #     - vr lint
+  #     - vr fmt
+  #   gitHook: pre-commit

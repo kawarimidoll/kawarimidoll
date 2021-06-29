@@ -1,5 +1,7 @@
 name: Update profile
 on:
+  push:
+    branches: [main]
   # 03:20UTC -> 12:20JST
   schedule:
     - cron: "20 3 * * *"
