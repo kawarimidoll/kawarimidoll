@@ -67,12 +67,7 @@ const icongram = (name: string, size = 20) =>
   });
 
 const iconText = (icon: string, text: string) =>
-  h(
-    "div",
-    { class: "list-item" },
-    icongram(icon),
-    h("div", { style: "margin:0 auto;text-align:center" }, text),
-  );
+  h("div", { class: "list-item" }, icongram(icon), h("div", text));
 
 const iconLink = (icon: string, text: string, href: string) =>
   h("a", { href }, iconText(icon, text));
