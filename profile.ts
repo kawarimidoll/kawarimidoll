@@ -11,6 +11,8 @@ const css = (cssObject: Record<string, Record<string, unknown>>) =>
 
 const title = "kawarimidoll profile";
 const avatarURL = "https://avatars.githubusercontent.com/u/8146876?v=4";
+const faviconURL =
+  "https://raw.githubusercontent.com/kawarimidoll/kawarimidoll/master/assets/kawarimi_chip_icon.svg";
 const styles = css({
   body: {
     display: "flex",
@@ -99,12 +101,7 @@ const html = "<!DOCTYPE html>" +
       h("meta", { name: "twitter:site", content: "@kawarimidoll" }),
       h("title", title),
       h("style", styles),
-      h("link", {
-        rel: "icon",
-        type: "image/svg+xml",
-        href:
-          "https://raw.githubusercontent.com/kawarimidoll/kawarimidoll/master/assets/kawarimi_chip_icon.svg",
-      }),
+      h("link", { rel: "icon", type: "image/svg+xml", href: faviconURL }),
     ),
     h(
       "body",
@@ -123,10 +120,7 @@ const html = "<!DOCTYPE html>" +
           { style: "margin-bottom:2rem" },
           "Aim to be a hacker and a painter.",
         ),
-        h(
-          "div",
-          "Click to jump...",
-        ),
+        h("div", "Click to jump..."),
         h(
           "div",
           { class: "nav-box" },
