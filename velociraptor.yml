@@ -4,8 +4,8 @@ allow:
   - net=zenn.dev,res.cloudinary.com
 
 scripts:
-  update_profile:
-    cmd: update_profile.ts
+  update_readme:
+    cmd: update_readme.ts
   lint: deno lint
   fmt: deno fmt
   pre-commit:
