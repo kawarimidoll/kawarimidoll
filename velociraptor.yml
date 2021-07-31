@@ -5,8 +5,8 @@ scripts:
       - read=README.md
       - net=zenn.dev,res.cloudinary.com
     cmd: update_readme.ts
-  lint: deno lint
-  fmt: deno fmt
+  lint: deno lint --ignore=server.js
+  fmt: deno fmt --ignore=server.js
   pre-commit:
     cmd:
       - vr lint
