@@ -1,7 +1,7 @@
 name: Update readme
 on:
-  push:
-    branches: [master]
+  # push:
+  #   branches: [master]
   # 03:20UTC -> 12:20JST
   schedule:
     - cron: "20 3 * * *"
