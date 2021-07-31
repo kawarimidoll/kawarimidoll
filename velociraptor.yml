@@ -1,10 +1,9 @@
-allow:
-  - write=./assets/zenn.png,README.md
-  - read=README.md
-  - net=zenn.dev,res.cloudinary.com
-
 scripts:
   update_readme:
+    allow:
+      - write=./assets/zenn.png,README.md
+      - read=README.md
+      - net=zenn.dev,res.cloudinary.com
     cmd: update_readme.ts
   lint: deno lint
   fmt: deno fmt
@@ -13,3 +12,12 @@ scripts:
       - vr lint
       - vr fmt
     gitHook: pre-commit
+  profile:
+    allow:
+      - read
+      - write
+      - net
+    desc: Starts profile server
+    cmd: profile.ts
+    unstable: true
+    watch: true
