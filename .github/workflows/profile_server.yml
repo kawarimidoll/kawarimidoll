@@ -1,0 +1,23 @@
+name: Profile server
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v2
+      - uses: denoland/setup-deno@v1
+      - uses: jurassiscripts/setup-velociraptor@v1
+      - run: VR_HOOKS=false vr profile --build
+
+      - name: Git commit
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          if [ -n "$(git status --porcelain)" ]
+          then git commit -aqm 'update profile server' && git push origin
+          else echo 'nothing to commit, working tree clean'
+          fi
