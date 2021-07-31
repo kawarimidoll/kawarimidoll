@@ -18,6 +18,7 @@ const styles = css({
     margin: "0",
     "text-align": "center",
     "scroll-behavior": "smooth",
+    "font-family": "sans-serif,monospace",
   },
   a: { "text-decoration": "none" },
   h2: {
