@@ -1,0 +1,76 @@
+name: kawarimidoll
+description: Aim to be a hacker and a painter.
+image: https://avatars.githubusercontent.com/u/8146876?v=4
+favicon: https://bit.ly/kawarimi_chip_icon
+list:
+  profiles:
+    icon: feather/smile
+    items:
+      - icon: feather/cpu
+        text: Software developer
+      - icon: feather/scissors
+        text: Yak shaver
+      - icon: feather/life-buoy
+        text: Wheel reinventor
+      - icon: feather/triangle
+        text: Indoor climber
+      - icon: feather/trending-up
+        text: Long-term investor
+      - icon: feather/map-pin
+        text: Room 101, Japan
+  tools:
+    icon: feather/tool
+    items:
+      - icon: feather/monitor
+        text: macOS
+      - icon: feather/smartphone
+        text: iPhone
+      - icon: simple/neovim
+        text: Neovim
+      - icon: simple/deno
+        text: Deno
+  links:
+    icon: feather/link
+    items:
+      - icon: feather/twitter
+        text: Twitter
+        link: https://twitter.com/kawarimidoll
+      - icon: feather/github
+        text: GitHub
+        link: https://github.com/kawarimidoll
+      - icon: feather/grid
+        text: Pixela
+        link: https://pixe.la/@kawarimidoll
+      - icon: feather/book
+        text: Zenn
+        link: https://zenn.dev/kawarimidoll
+      - icon: feather/search
+        text: Qiita
+        link: https://qiita.com/kawarimidoll
+      - icon: feather/coffee
+        text: Buy me a coffee
+        link: https://www.buymeacoffee.com/kawarimidoll
+      - icon: feather/globe
+        text: My site [under construction]
+        link: https://kawarimidoll.com
+      - icon: feather/gitlab
+        text: GitLab [stale]
+        link: https://gitlab.com/kawarimidoll
+      - icon: feather/package
+        text: npm [stale]
+        link: https://www.npmjs.com/~kawarimidoll
+  supports:
+    icon: feather/gift
+    items:
+      - icon: simple/ubereats
+        text: "Uber Eats promotion code: eats-2j5di9k7b0"
+        link: https://ubereats.com/feed?promoCode=eats-2j5di9k7b0
+      - icon: feather/shopping-bag
+        text: "Rakuma invitation code: GHMt4"
+        link: https://fril.jp/download
+      - icon: feather/dollar-sign
+        text: "Moppy invitation code: rUK7e101"
+        link: https://pc.moppy.jp/entry/invite.php?invite=rUK7e101
+      - icon: feather/dollar-sign
+        text: "GPoint invitation code: 6827763"
+        link: https://www.gpoint.co.jp/fd/?u=6827763&r=01
