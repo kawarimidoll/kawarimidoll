@@ -12,12 +12,10 @@ scripts:
       - vr lint
       - vr fmt
     gitHook: pre-commit
-  profile:
-    allow:
-      - read
-      - write
-      - net
-    desc: Starts profile server
-    cmd: profile.ts
-    unstable: true
-    watch: true
+  denote:
+    desc: Build denote server
+    cmd: >
+      cd denote &&
+      deno run --allow-read --allow-write
+      https://raw.githubusercontent.com/kawarimidoll/denote/main/cli/denote.ts
+      build --force denote.yml
