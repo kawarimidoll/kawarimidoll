@@ -2,6 +2,7 @@ name: kawarimidoll
 description: Aim to be a hacker and a painter.
 image: https://avatars.githubusercontent.com/u/8146876?v=4
 favicon: https://bit.ly/kawarimi_chip_icon
+twitter: kawarimidoll
 list:
   profiles:
     icon: feather/smile
@@ -12,6 +13,8 @@ list:
         text: Yak shaver
       - icon: feather/life-buoy
         text: Wheel reinventor
+      - icon: feather/target
+        text: Premature optimizer
       - icon: feather/triangle
         text: Indoor climber
       - icon: feather/trending-up
@@ -59,9 +62,15 @@ list:
       - icon: feather/package
         text: npm [stale]
         link: https://www.npmjs.com/~kawarimidoll
+      - icon: feather/image
+        text: openprocessing [stale]
+        link: https://openprocessing.org/user/84520?view=sketches
   supports:
     icon: feather/gift
     items:
+      - icon: octicons/infinity
+        text: "Dynalist promotion code: qyDZIw"
+        link: https://dynalist.io/invite/qyDZIw
       - icon: simple/ubereats
         text: "Uber Eats promotion code: eats-2j5di9k7b0"
         link: https://ubereats.com/feed?promoCode=eats-2j5di9k7b0
