@@ -26,4 +26,5 @@ jobs:
             and [create-pull-request](https://github.com/peter-evans/create-pull-request)
             GitHub action
           branch: update-deno-dependencies
+          author: GitHub <noreply@github.com>
           delete-branch: true
