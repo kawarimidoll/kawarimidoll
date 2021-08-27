@@ -49,7 +49,7 @@ Here are some ideas to get you started:
 
 <p align="center">
 <!-- zenn-article-link-next-line -->
-<a href="https://zenn.dev/kawarimidoll/articles/bd72d4e9262964"><img alt="Zenn" src="assets/zenn.png"></a>
+<a href="https://zenn.dev/kawarimidoll/articles/75430b40622e7c"><img alt="Zenn" src="assets/zenn.png"></a>
 </p>
 
 ### 🗂 external profiles
