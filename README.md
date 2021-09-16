@@ -13,27 +13,31 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# [![header](assets/header.svg)](https://github.com/kawarimidoll/typograssy)
+<p align="center">
+<a href="https://github.com/kawarimidoll/typograssy"><img alt="header" src="assets/header.svg"></a>
+</p>
 
-## ![Deno logo](https://camo.githubusercontent.com/c64e174ebfe1465960ce9d0b3c0ad1dda876ee04bd50e5830b87b0d7259fe975/68747470733a2f2f69636f6e67722e616d2f73696d706c652f64656e6f2e737667) Deno practices
+## <img alt="Deno logo" src="https://camo.githubusercontent.com/c64e174ebfe1465960ce9d0b3c0ad1dda876ee04bd50e5830b87b0d7259fe975/68747470733a2f2f69636f6e67722e616d2f73696d706c652f64656e6f2e737667" style="height:1em;width:1em;margin:0 0.05em 0 0.1em;vertical-align:-0.1em;"> Deno practices
 
 ### Repositories
 
-[![deno-github-contributions-api](https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=deno-github-contributions-api)](https://github.com/kawarimidoll/deno-github-contributions-api)
-[![deno-diplodocus](https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=deno-diplodocus)](https://github.com/kawarimidoll/deno-diplodocus)
-[![denote](https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=denote)](https://github.com/kawarimidoll/denote)
-[![pax.deno.dev](https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=pax.deno.dev)](https://github.com/kawarimidoll/pax.deno.dev)
-[![deno-markup-tag](https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=deno-markup-tag)](https://github.com/kawarimidoll/deno-markup-tag)
-[![deno-twemoji-convert](https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=deno-twemoji-convert)](https://github.com/kawarimidoll/deno-twemoji-convert)
-[![typograssy](https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=typograssy)](https://github.com/kawarimidoll/typograssy)
-[![deno-tl-log](https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=deno-tl-log)](https://github.com/kawarimidoll/deno-tl-log)
-[![deno-dev-template](https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=deno-dev-template)](https://github.com/kawarimidoll/deno-dev-template)
-[![deno-textdb](https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=deno-textdb)](https://github.com/kawarimidoll/deno-textdb)
-[![deno-cli-tools](https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=deno-cli-tools)](https://github.com/kawarimidoll/deno-cli-tools)
+<a href="https://github.com/kawarimidoll/deno-github-contributions-api"><img alt="deno-github-contributions-api" src="assets/deno-github-contributions-api.svg" style="width:380px"></a>
+<a href="https://github.com/kawarimidoll/deno-diplodocus"><img alt="deno-diplodocus" src="assets/deno-diplodocus.svg" style="width:380px"></a>
+<a href="https://github.com/kawarimidoll/denote"><img alt="denote" src="assets/denote.svg" style="width:380px"></a>
+<a href="https://github.com/kawarimidoll/pax.deno.dev"><img alt="pax.deno.dev" src="assets/pax-deno-dev.svg" style="width:380px"></a>
+<a href="https://github.com/kawarimidoll/deno-markup-tag"><img alt="deno-markup-tag" src="assets/deno-markup-tag.svg" style="width:380px"></a>
+<a href="https://github.com/kawarimidoll/deno-twemoji-convert"><img alt="deno-twemoji-convert" src="assets/deno-twemoji-convert.svg" style="width:380px"></a>
+<a href="https://github.com/kawarimidoll/typograssy"><img alt="typograssy" src="assets/typograssy.svg" style="width:380px"></a>
+<a href="https://github.com/kawarimidoll/deno-tl-log"><img alt="deno-tl-log" src="assets/deno-tl-log.svg" style="width:380px"></a>
+<a href="https://github.com/kawarimidoll/deno-dev-template"><img alt="deno-dev-template" src="assets/deno-dev-template.svg" style="width:380px"></a>
+<a href="https://github.com/kawarimidoll/deno-textdb"><img alt="deno-textdb" src="assets/deno-textdb.svg" style="width:380px"></a>
+<a href="https://github.com/kawarimidoll/deno-cli-tools"><img alt="deno-cli-tools" src="assets/deno-cli-tools.svg" style="width:380px"></a>
 
 ### Gists
 
-- [Auto-Update Deno Dependencies](https://gist.github.com/kawarimidoll/2f43533e5fbe319f4bc9bb255c73a02d)
+<ul>
+<li><a href="https://gist.github.com/kawarimidoll/2f43533e5fbe319f4bc9bb255c73a02d">Auto-Update Deno Dependencies</a></li>
+</ul>
 
 ## 📝 Article
 
