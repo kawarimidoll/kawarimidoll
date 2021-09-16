@@ -1,9 +1,8 @@
 name: Update Assets
 on:
+  workflow_dispatch:
   schedule:
     - cron: 0 0/6 * * *
-  repository_dispatch:
-    types: [update-assets]
 
 # ref: https://github.com/technote-space/technote-space/blob/master/.github/workflows/update-stats.yml
 
@@ -15,35 +14,74 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Download stats
-        run: |
-          curl -sS 'https://github-readme-stats.vercel.app/api?username=kawarimidoll&count_private=true&show_icons=true' \
-          | sed 's/>/>\n/g' | sed 's/<!--.*-->//' | sed '/<!--/,/-->/d' | sed 's/  */ /g' \
-          | tr -d '\n' > assets/stats.svg || echo 'Download stats: failed'
+        run: >
+          bash dl_svg.sh 'https://github-readme-stats.vercel.app/api?username=kawarimidoll&count_private=true&show_icons=true'
+          > assets/stats.svg || echo 'Download stats: failed'
       - name: Download langs
-        run: |
-          curl -sS 'https://github-readme-stats.vercel.app/api/top-langs/?username=kawarimidoll&layout=compact' \
-          | sed 's/>/>\n/g' | sed 's/<!--.*-->//' | sed '/<!--/,/-->/d' | sed 's/  */ /g' \
-          | tr -d '\n' > assets/langs.svg || echo 'Download langs: failed'
+        run: >
+          bash dl_svg.sh 'https://github-readme-stats.vercel.app/api/top-langs/?username=kawarimidoll&layout=compact'
+          > assets/langs.svg || echo 'Download langs: failed'
       - name: Download trophies
-        run: |
-          curl -sS 'https://github-profile-trophy.vercel.app/?username=kawarimidoll&margin-w=5&no-frame=true&column=7' \
-          | sed 's/>/>\n/g' | sed 's/<!--.*-->//' | sed '/<!--/,/-->/d' | sed 's/  */ /g' \
-          | tr -d '\n' > assets/trophies.svg || echo 'Download trophies: failed'
+        run: >
+          bash dl_svg.sh 'https://github-profile-trophy.vercel.app/?username=kawarimidoll&margin-w=5&no-frame=true&column=7'
+          > assets/trophies.svg || echo 'Download trophies: failed'
       - name: Download streak
-        run: |
-          curl -sS 'https://github-readme-streak-stats.herokuapp.com/?user=kawarimidoll' \
-          | sed 's/>/>\n/g' | sed 's/<!--.*-->//' | sed '/<!--/,/-->/d' | sed 's/  */ /g' \
-          | tr -d '\n' > assets/streak.svg || echo 'Download streak: failed'
+        run: >
+          bash dl_svg.sh 'https://github-readme-streak-stats.herokuapp.com/?user=kawarimidoll'
+          > assets/streak.svg || echo 'Download streak: failed'
       - name: Download contribution-stats
-        run: |
-          curl -sS 'https://github-contribution-stats.vercel.app/api/?username=kawarimidoll' \
-          | sed 's/>/>\n/g' | sed 's/<!--.*-->//' | sed '/<!--/,/-->/d' | sed 's/  */ /g' \
-          | tr -d '\n' > assets/summary.svg || echo 'Download summary: failed'
+        run: >
+          bash dl_svg.sh 'https://github-contribution-stats.vercel.app/api/?username=kawarimidoll'
+          > assets/summary.svg || echo 'Download summary: failed'
       - name: Download header
-        run: |
-          curl -sS 'https://typograssy.vercel.app/api?text=Hello%20world!%20%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF%E4%B8%96%E7%95%8C!%20&frame=none&bg=none' \
-          | sed 's/>/>\n/g' | sed 's/<!--.*-->//' | sed '/<!--/,/-->/d' | sed 's/  */ /g' \
-          | tr -d '\n' > assets/header.svg || echo 'Download header: failed'
+        run: >
+          bash dl_svg.sh 'https://typograssy.vercel.app/api?text=Hello%20world!%20%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF%E4%B8%96%E7%95%8C!%20&frame=none&bg=none'
+          > assets/header.svg || echo 'Download header: failed'
+
+      - name: Download deno-github-contributions-api
+        run: >
+          bash dl_svg.sh 'https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=deno-github-contributions-api'
+          > assets/deno-github-contributions-api.svg || echo 'Download deno-github-contributions-api: failed'
+      - name: Download deno-diplodocus
+        run: >
+          bash dl_svg.sh 'https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=deno-diplodocus'
+          > assets/deno-diplodocus.svg || echo 'Download deno-diplodocus: failed'
+      - name: Download denote
+        run: >
+          bash dl_svg.sh 'https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=denote'
+          > assets/denote.svg || echo 'Download denote: failed'
+      - name: Download pax.deno.dev
+        run: >
+          bash dl_svg.sh 'https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=pax.deno.dev'
+          > assets/pax-deno-dev.svg || echo 'Download pax.deno.dev: failed'
+      - name: Download deno-markup-tag
+        run: >
+          bash dl_svg.sh 'https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=deno-markup-tag'
+          > assets/deno-markup-tag.svg || echo 'Download deno-markup-tag: failed'
+      - name: Download deno-twemoji-convert
+        run: >
+          bash dl_svg.sh 'https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=deno-twemoji-convert'
+          > assets/deno-twemoji-convert.svg || echo 'Download deno-twemoji-convert: failed'
+      - name: Download typograssy
+        run: >
+          bash dl_svg.sh 'https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=typograssy'
+          > assets/typograssy.svg || echo 'Download typograssy: failed'
+      - name: Download deno-tl-log
+        run: >
+          bash dl_svg.sh 'https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=deno-tl-log'
+          > assets/deno-tl-log.svg || echo 'Download deno-tl-log: failed'
+      - name: Download deno-dev-template
+        run: >
+          bash dl_svg.sh 'https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=deno-dev-template'
+          > assets/deno-dev-template.svg || echo 'Download deno-dev-template: failed'
+      - name: Download deno-textdb
+        run: >
+          bash dl_svg.sh 'https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=deno-textdb'
+          > assets/deno-textdb.svg || echo 'Download deno-textdb: failed'
+      - name: Download deno-cli-tools
+        run: >
+          bash dl_svg.sh 'https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=deno-cli-tools'
+          > assets/deno-cli-tools.svg || echo 'Download deno-cli-tools: failed'
 
       - name: Git commit
         run: |
