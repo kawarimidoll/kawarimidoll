@@ -36,7 +36,8 @@ Here are some ideas to get you started:
 ### Gists
 
 <ul>
-<li><a href="https://gist.github.com/kawarimidoll/2f43533e5fbe319f4bc9bb255c73a02d">Auto-Update Deno Dependencies</a></li>
+<li><a href="https://gist.github.com/kawarimidoll/2f43533e5fbe319f4bc9bb255c73a02d">Auto Update Deno Dependencies</a></li>
+<li><a href="https://gist.github.com/kawarimidoll/8db8bf8a23b06f77dd0cf8fbf3315bcb">Auto Run Deno in Neovim</a></li>
 </ul>
 
 ## 📝 Article
@@ -77,8 +78,8 @@ Here are some ideas to get you started:
 🗂 generated profiles
 
 <ul>
-<li><a href="https://gitstalk.netlify.app/kawarimidoll">gitstalk</a></li>
-<li><a href="https://gitfolio-online.vercel.app/u/kawarimidoll">gitfolio</a></li>
+<li><a href="https://gitstalk.netlify.app/kawarimidoll">GitStalk</a></li>
+<li><a href="https://gitfolio-online.vercel.app/u/kawarimidoll">GitFolio</a></li>
 <li><a href="https://profile-summary-for-github.com/user/kawarimidoll">profile-summary-for-github</a></li>
 </ul>
 </details>
