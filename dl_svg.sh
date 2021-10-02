@@ -1,6 +1,6 @@
 #!/bin/bash
 
-curl -sS "$1" \
+curl -sSL "$1" \
   | sed 's/>/>\n/g' \
   | sed 's/<!--.*-->//' \
   | sed '/<!--/,/-->/d' \
