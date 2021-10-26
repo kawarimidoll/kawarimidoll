@@ -1,38 +1,23 @@
-import {
-  deserializeFeed,
-  download,
-  Feed,
-  FeedType,
-  ky,
-  RSS1,
-  RSS2,
-} from "./deps.ts";
+import { download, ky, parseFeed } from "./deps.ts";
 
-const rss = async (url: string) => await deserializeFeed(await ky(url).text());
+const rss = async (url: string) => await parseFeed(await ky(url).text());
 
-const isRss2 = (
-  feed: Feed | RSS1 | RSS2,
-  feedType: FeedType.Atom | FeedType.Rss1 | FeedType.Rss2,
-): feed is RSS2 => feed && feedType === FeedType.Rss2;
+const feed = await rss("https://zenn.dev/kawarimidoll/feed");
 
-const { feed, feedType } = await rss("https://zenn.dev/kawarimidoll/feed");
-if (!isRss2(feed, feedType)) {
-  throw new Error("Invalid feed type");
-}
-
-const item = feed.channel?.items[0];
+const item = feed.entries[0];
 if (!item) {
   throw new Error("Item not found");
 }
 
-const { title, link, enclosure } = item;
-if (!link) {
-  throw new Error("Link not found");
+const { title, links, attachments } = item;
+if (!links || !links[0] || !links[0].href) {
+  throw new Error("Page link not found");
 }
-const url = enclosure?.url;
-if (!url) {
-  throw new Error("URL not found");
+const link = links[0].href;
+if (!attachments || !attachments[0] || !attachments[0].url) {
+  throw new Error("Image URL not found");
 }
+const url = attachments[0].url;
 
 console.log({ title, link, url });
 const file = "zenn.png";
