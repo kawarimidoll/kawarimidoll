@@ -49,7 +49,7 @@ jobs:
       - name: Download deno-dex
         run: >
           bash dl_svg.sh 'https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=deno-dex'
-        > assets/deno-dex.svg || echo 'Download deno-dex: failed'
+          > assets/deno-dex.svg || echo 'Download deno-dex: failed'
       - name: Download denote
         run: >
           bash dl_svg.sh 'https://github-readme-stats.vercel.app/api/pin/?username=kawarimidoll&repo=denote'
