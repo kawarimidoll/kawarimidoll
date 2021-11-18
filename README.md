@@ -22,6 +22,7 @@ Here are some ideas to get you started:
 ### Repositories
 
 <a href="https://github.com/kawarimidoll/deno-github-contributions-api"><img alt="deno-github-contributions-api" src="assets/deno-github-contributions-api.svg" style="width:380px"></a>
+<a href="https://github.com/kawarimidoll/deno-dex"><img alt="deno-dex" src="assets/deno-dex.svg" style="width:380px"></a>
 <a href="https://github.com/kawarimidoll/deno-diplodocus"><img alt="deno-diplodocus" src="assets/deno-diplodocus.svg" style="width:380px"></a>
 <a href="https://github.com/kawarimidoll/denote"><img alt="denote" src="assets/denote.svg" style="width:380px"></a>
 <a href="https://github.com/kawarimidoll/pax.deno.dev"><img alt="pax.deno.dev" src="assets/pax-deno-dev.svg" style="width:380px"></a>
@@ -37,6 +38,7 @@ Here are some ideas to get you started:
 
 <ul>
 <li><a href="https://gist.github.com/kawarimidoll/2f43533e5fbe319f4bc9bb255c73a02d">Auto Update Deno Dependencies</a></li>
+<li><a href="https://gist.github.com/kawarimidoll/92179f60dfc67de3b0a52c5eb25ad333">Get DENO_DIR</a></li>
 <li><a href="https://gist.github.com/kawarimidoll/8db8bf8a23b06f77dd0cf8fbf3315bcb">Auto Run Deno in Neovim</a></li>
 </ul>
 
