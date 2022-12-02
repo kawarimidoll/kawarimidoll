@@ -1,5 +1,5 @@
 import { tag as h } from "https://deno.land/x/markup_tag@0.3.0/mod.ts";
-import { ensureDir } from "https://deno.land/std@0.162.0/fs/mod.ts";
+import { ensureDir } from "https://deno.land/std@0.166.0/fs/mod.ts";
 import { main as deployDir } from "https://deno.land/x/deploy_dir@v0.3.2/cli.ts";
 
 const css = (cssObject: Record<string, Record<string, unknown>>) =>
