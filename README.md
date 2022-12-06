@@ -46,7 +46,7 @@ Here are some ideas to get you started:
 
 <p align="center">
 <!-- zenn-article-link-next-line -->
-<a href="https://zenn.dev/vim_jp/articles/8de697fc88e63c"><img alt="Zenn" src="assets/zenn.png" style="width:480px"></a>
+<a href="https://zenn.dev/kawarimidoll/articles/0cf9468a5ed007"><img alt="Zenn" src="assets/zenn.png" style="width:480px"></a>
 </p>
 
 ## 🌟 Misc
