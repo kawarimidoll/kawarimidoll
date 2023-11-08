@@ -85,3 +85,8 @@ Here are some ideas to get you started:
 <li><a href="https://profile-summary-for-github.com/user/kawarimidoll">profile-summary-for-github</a></li>
 </ul>
 </details>
+
+
+<p align="center">
+<img alt="lgtm" src="https://github.com/kawarimidoll/kawarimidoll/assets/8146876/df0d58ac-e7ba-49ad-86db-47b89e4390c2.gif">
+</p>
