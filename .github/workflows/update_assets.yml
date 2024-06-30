@@ -1,8 +1,8 @@
 name: Update Assets
 on:
   workflow_dispatch:
-  schedule:
-    - cron: 0 0/6 * * *
+  # schedule:
+  #   - cron: 0 0/6 * * *
 
 # ref: https://github.com/technote-space/technote-space/blob/master/.github/workflows/update-stats.yml
 
