@@ -3,18 +3,19 @@ on:
   # push:
   #   branches: [master]
   # 03:20UTC -> 12:20JST
-  # schedule:
-  #   - cron: "20 3 * * *"
+  schedule:
+   - cron: "20 3 * * *"
 
 jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: denoland/setup-deno@v1
-      - uses: jurassiscripts/setup-velociraptor@v1
-      - run: VR_HOOKS=false vr update_readme
+      - run: |
+          deno run --allow-read=README.md --allow-write=README.md
+          --allow-net=zenn.dev update_readme.ts
 
       - name: Git commit
         run: |
