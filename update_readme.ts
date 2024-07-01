@@ -1,4 +1,4 @@
-import { download, ky, parseFeed } from "./deps.ts";
+import { download, ky, outdent, parseFeed } from "./deps.ts";
 
 const rss = async (url: string) => await parseFeed(await ky(url).text());
 
@@ -20,25 +20,15 @@ if (!attachments || !attachments[0] || !attachments[0].url) {
 const url = attachments[0].url;
 
 console.log({ title, link, url });
-const file = "zenn.png";
-const dir = "./assets";
-await download(url, { file, dir });
 
-const readme = "./README.md";
-const text = await Deno.readTextFile(readme);
+const filename = "./README.md";
+const text = await Deno.readTextFile(filename);
 
-const urlStr = "https?:\/\/[-_.!~*'()a-zA-Z0-9;\/?:\@&=+\$,%#]+";
 const replaceFlg = "<!-- zenn-article-link-next-line -->";
-const regex = new RegExp(`(${replaceFlg}\n.*)${urlStr}`);
-await Deno.writeTextFile(readme, text.replace(regex, `$1${link}`));
+const regex = new RegExp(`${replaceFlg}\n.*`);
 
-// const linkRegex = new RegExp(
-//   "https?:\/\/zenn.dev/[-_.!~*'()a-zA-Z0-9;\/?:\@&=+\$,%#]+",
-// );
-// const imageRegex = new RegExp(
-//   "https?:\/\/res.cloudinary.com/[-_.!~*'()a-zA-Z0-9;\/?:\@&=+\$,%#]+",
-// );
-// await Deno.writeTextFile(
-//   readme,
-//   text.replace(linkRegex, link).replace(imageRegex, url),
-// );
+const dst = outdent`
+  ${replaceFlg}
+  <a href="${link}"><img alt="Zenn" src="${url}" style="width:480px"></a>
+  `;
+await Deno.writeTextFile(filename, text.replace(regex, dst));
