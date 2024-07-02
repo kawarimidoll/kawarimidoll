@@ -13,9 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: denoland/setup-deno@v1
-      - run: |
-          deno run --allow-read=README.md --allow-write=README.md
-          --allow-net=zenn.dev update_readme.ts
+      - run: deno task update_readme
 
       - name: Git commit
         run: |
