@@ -1,4 +1,6 @@
-import { download, ky, outdent, parseFeed } from "./deps.ts";
+import ky from "ky";
+import { outdent } from "outdent";
+import { parseFeed } from "rss";
 
 const rss = async (url: string) => await parseFeed(await ky(url).text());
 

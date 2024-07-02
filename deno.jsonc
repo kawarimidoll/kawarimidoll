@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "ky": "npm:ky@^1.4.0",
+    "rss": "https://deno.land/x/rss@1.0.4/mod.ts",
+    "outdent": "https://deno.land/x/outdent@v0.8.0/mod.ts"
+  },
+  "tasks": {
+    "update_readme": "deno run --allow-read=README.md --allow-write=README.md --allow-net=zenn.dev update_readme.ts"
+  }
+}
