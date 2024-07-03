@@ -5,6 +5,7 @@
     "outdent": "https://deno.land/x/outdent@v0.8.0/mod.ts"
   },
   "tasks": {
+    "update": "deno run --allow-env --allow-read --allow-write=. --allow-run=git,deno --allow-net=jsr.io,deno.land jsr:@molt/cli deno.jsonc --write",
     "update_readme": "deno run --allow-read=README.md --allow-write=README.md --allow-net=zenn.dev update_readme.ts"
   }
 }
