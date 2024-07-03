@@ -49,7 +49,7 @@ Here are some ideas to get you started:
 
 <p align="center">
 <!-- zenn-article-link-next-line -->
-<a href="https://zenn.dev/vim_jp/articles/9b1db46217a27d"><img alt="Zenn" src="assets/zenn.png" style="width:480px"></a>
+<a href="https://zenn.dev/kawarimidoll/articles/f6731a48c9d3d7"><img alt="Zenn" src="https://res.cloudinary.com/zenn/image/upload/s--gPdXW_-y--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:cli%25E3%2581%25A7%25E6%2597%25A5%25E4%25BB%2598%25E3%2582%2592yyyy-mm-dd%25E5%25BD%25A2%25E5%25BC%258F%25E3%2581%25A7%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:kawarimidoll%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzIzNzlhYzhkODYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" style="width:480px"></a>
 </p>
 
 You can find other articles here (in Japanese).
