@@ -49,7 +49,7 @@ Here are some ideas to get you started:
 
 <p align="center">
 <!-- zenn-article-link-next-line -->
-<a href="https://zenn.dev/kawarimidoll/articles/da74ebc5328112"><img alt="Zenn" src="https://res.cloudinary.com/zenn/image/upload/s--SgejJuKN--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:October%25202024%2520Rust%2520Melbourne%2520Meetup%25E3%2581%25A7%25E7%2599%25BA%25E8%25A1%25A8%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:kawarimidoll%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzIzNzlhYzhkODYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" style="width:480px"></a>
+<a href="https://zenn.dev/kawarimidoll/articles/95256fd0d9dffe"><img alt="Zenn" src="https://res.cloudinary.com/zenn/image/upload/s--r0Bfzf7c--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Svelte%2520Japan%2520Online%2520Meetup%25E3%2581%25A7%25E7%2599%25BA%25E8%25A1%25A8%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:kawarimidoll%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzIzNzlhYzhkODYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" style="width:480px"></a>
 </p>
 
 You can find other articles here (in Japanese).
