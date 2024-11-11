@@ -49,7 +49,7 @@ Here are some ideas to get you started:
 
 <p align="center">
 <!-- zenn-article-link-next-line -->
-<a href="https://zenn.dev/kawarimidoll/articles/95256fd0d9dffe"><img alt="Zenn" src="https://res.cloudinary.com/zenn/image/upload/s--r0Bfzf7c--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Svelte%2520Japan%2520Online%2520Meetup%25E3%2581%25A7%25E7%2599%25BA%25E8%25A1%25A8%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:kawarimidoll%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzIzNzlhYzhkODYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" style="width:480px"></a>
+<a href="https://zenn.dev/kawarimidoll/articles/523a6b2446ef09"><img alt="Zenn" src="https://res.cloudinary.com/zenn/image/upload/s--__k67tet--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Starship%2520prompt%25E3%2581%25ABSvelte%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2581%25A7%25E3%2581%2582%25E3%2582%258B%25E3%2581%2593%25E3%2581%25A8%25E3%2582%2592%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:kawarimidoll%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzIzNzlhYzhkODYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" style="width:480px"></a>
 </p>
 
 You can find other articles here (in Japanese).
