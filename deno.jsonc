@@ -1,8 +1,0 @@
-{
-  "imports": {
-    "rss": "jsr:@mikaelporttila/rss@^1"
-  },
-  "tasks": {
-    "update_readme": "deno run --allow-read=README.md --allow-write=README.md --allow-net=zenn.dev update_readme.ts"
-  }
-}
