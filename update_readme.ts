@@ -1,10 +1,8 @@
-import ky from "ky";
-import { outdent } from "outdent";
 import { parseFeed } from "rss";
 
-const rss = async (url: string) => await parseFeed(await ky(url).text());
-
-const feed = await rss("https://zenn.dev/kawarimidoll/feed");
+const feed = await parseFeed(
+  await fetch("https://zenn.dev/kawarimidoll/feed").then((r) => r.text()),
+);
 
 const item = feed.entries[0];
 if (!item) {
@@ -29,8 +27,5 @@ const text = await Deno.readTextFile(filename);
 const replaceFlg = "<!-- zenn-article-link-next-line -->";
 const regex = new RegExp(`${replaceFlg}\n.*`);
 
-const dst = outdent`
-  ${replaceFlg}
-  <a href="${link}"><img alt="Zenn" src="${url}" style="width:480px"></a>
-  `;
+const dst = `${replaceFlg}\n<a href="${link}"><img alt="Zenn" src="${url}" style="width:480px"></a>`;
 await Deno.writeTextFile(filename, text.replace(regex, dst));
