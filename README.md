@@ -18,13 +18,7 @@ Here are some ideas to get you started:
 </p>
 
 <p align="center">
-<img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@latest/assets/svg/1f496.svg" style="height: 1em;width: 1em;margin: 0 0.05em 0 0.1em;vertical-align: -0.1em;">
-<img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@latest/assets/svg/1f31f.svg" style="height: 1em;width: 1em;margin: 0 0.05em 0 0.1em;vertical-align: -0.1em;">
-<img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@latest/assets/svg/1f449.svg" style="height: 1em;width: 1em;margin: 0 0.05em 0 0.1em;vertical-align: -0.1em;">
-<a href="https://kawarimidoll.github.io">kawarimidoll.github.io</a>
-<img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@latest/assets/svg/1f448.svg" style="height: 1em;width: 1em;margin: 0 0.05em 0 0.1em;vertical-align: -0.1em;">
-<img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@latest/assets/svg/1f31f.svg" style="height: 1em;width: 1em;margin: 0 0.05em 0 0.1em;vertical-align: -0.1em;">
-<img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@latest/assets/svg/1f496.svg" style="height: 1em;width: 1em;margin: 0 0.05em 0 0.1em;vertical-align: -0.1em;">
+<a href="https://kawarimidoll.github.io"><img alt="kawarimidoll.github.io" src="assets/link.svg"></a>
 </p>
 
 <p align="center">
