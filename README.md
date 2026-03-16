@@ -22,6 +22,10 @@ Here are some ideas to get you started:
 </p>
 
 <p align="center">
+<img alt="Profile views" src="https://kawarimidoll.deno.dev/counter-robots.svg">
+</p>
+
+<p align="center">
 <a href="https://github.com/ryo-ma/github-profile-trophy"><img alt="Trophy" src="https://gh-trophy.cdnsoft.net/?username=kawarimidoll&theme=oldie&no-frame=true&column=5"></a>
 </p>
 
