@@ -3,7 +3,7 @@ const kv = await Deno.openKv();
 const COUNTER_KEY = ["counter", "profile"];
 
 async function getAndIncrement() {
-  const result = await kv.get(COUNTER_KEY);
+  const result = await kv.get<number>(COUNTER_KEY);
   const current = result.value ?? 0;
   const next = current + 1;
   await kv.set(COUNTER_KEY, next);
@@ -12,7 +12,7 @@ async function getAndIncrement() {
 
 // --- Badge-style counter ---
 
-function renderBadgeSvg(count) {
+function renderBadgeSvg(count: number) {
   const label = "views";
   const value = String(count);
 
@@ -221,7 +221,7 @@ const ROBOT_COLORS = [
   "#9585d3",
 ];
 
-function renderRobotsSvg(count) {
+function renderRobotsSvg(count: number) {
   const digits = String(count).split("").map(Number);
   const px = 4;
   const spriteW = 9;
