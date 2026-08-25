@@ -22,7 +22,7 @@ Here are some ideas to get you started:
 </p>
 
 <p align="center">
-<img alt="Profile views" src="https://kawarimidoll.kawarimidoll-org.deno.net/counter-robots.svg">
+<img alt="Profile views" src="https://kawarimidoll.kawarimidoll.deno.net/counter-robots.svg">
 </p>
 
 <p align="center">
